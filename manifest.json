@@ -1,0 +1,19 @@
+  {
+    "name": "Coffee",
+    "description" : "Coffee Extention - 2.1 (Git Edition)",
+    "version": "2.1",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "Coffee.html",
+      "default_icon": "Coffee.png"
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Alt+Shift+C"
+        },
+        "description": "Coffee"
+      }
+    }
+  
+  }
